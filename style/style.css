@@ -118,7 +118,7 @@ p {
 
 .social-icons svg {
     width: 3%;
-    padding:0;
+    padding: 0;
 }
 
 .tech-stack {
@@ -191,7 +191,8 @@ section {
 
 
 
-.social-git, .social-linkedin {
+.social-git,
+.social-linkedin {
     /* padding: 0; */
     /* margin: 0; */
     /* width: 122px; */
@@ -228,4 +229,45 @@ input[type="submit"] {
     width: 90%;
     margin: 0;
     padding: 0;
-}                                                   
+}
+
+/* About Me Page */
+.about_desc {
+    width: 56%;
+    bottom: 387px;
+    left: 35.5%;
+    position: relative;
+}
+
+#about_profile {
+    position: relative;
+    top: 16px;
+    font-size: 130%;
+}
+
+#about_profile img {
+    position: relative;
+    top: 27px;
+    left: 24%;
+}
+
+#about_profile h3 {
+    position: relative;
+    bottom: 409px;
+    left: 53%;
+}
+
+#about_profile h2 {
+    text-align: center;
+}
+
+/*Project Page */
+
+.project_portfolio {
+    /* height: 464px; */
+    margin: 1% 12%;
+}
+
+.project_portfolio h2 {
+    text-align: center;
+}
