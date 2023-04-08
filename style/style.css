@@ -5,14 +5,12 @@
 
 html {
     scroll-behavior: smooth;
-    max-width: 100%;
-    background: gray;
 }
 
 body {
     width: 100%;
-    margin: 0;
-    padding: 0;
+    margin: clear;
+    padding: clear;
     /*hides scrollbar*/
     overflow-x: hidden;
     height: 100vh;
@@ -66,71 +64,6 @@ body {
     top: 16px;
 }
 
-@media (max-width:909px) {
-
-    /* Menu Bar */
-
-    .menu-bar {
-        display: none;
-        margin: 0;
-        padding: 0 -7%;
-        width: 18%;
-    }
-    .menu-bar.active {
-        display: flex;
-        margin: 0;
-        padding: 0 -7%;
-        width: 18%;
-    }
-
-    .menu-bar ul {
-        margin: 18% 0;
-        padding: 0;
-        width: 100%;
-
-        display: flex;
-        flex-direction: column;
-        text-align: center;
-        /* background: gray; */
-    }
-
-    .menu-bar ul li {
-        list-style-type: none;
-    }
-
-    .menu-bar ul li a {
-        font-size: 120%;
-        margin: 1em;
-        display: block;
-        cursor: pointer;
-    }
-
-    .menu-icon {
-        position: absolute;
-        cursor: pointer;
-        border: none;
-        display: flex;
-        flex-direction: column;
-        right: 8%;
-        top: 2%;
-    }
-
-
-    #profile {
-        height: 92dvh;
-        /* position: absolute; */
-        /* left: 17%; */
-        top: 63px;
-    }
-
-    .menu-bar button:active,
-    .menu-bar button:hover {
-        padding: 0px 6px;
-        /* margin: 0px 0px; */
-        border: 1px solid black;
-    }
-}
-
 a {
     text-decoration: none;
     color: black;
@@ -173,34 +106,37 @@ p {
 
 /*Icons*/
 
-svg {
-    max-width: 4%;
-    width: 100%;
-    margin: .5%;
-}
 
 .social-icons {
     position: relative;
-    top: -17dvh;
+    top: -19dvh;
     cursor: pointer;
+    /* margin: 0; */
+    /* padding: 0; */
+    width: 70%;
 }
 
 .social-icons svg {
     width: 3%;
+    padding:0;
 }
 
 .tech-stack {
-    display: flex;
+    display: inline-flex;
     position: relative;
     bottom: 198px;
+    /* height: 44px; */
     /* width: 100%; */
-    /* left: 23%; */
+    left: 30%;
 }
 
 .tech-stack svg {
     position: relative;
-    bottom: 130px;
-    margin: 0 15px;
+    bottom: -27px;
+    margin: 0px 13px;
+    /* padding: 0; */
+    height: 46px;
+    width: 60%;
 }
 
 label {
@@ -222,20 +158,22 @@ section {
 }
 
 .profile_portfolio {
-    height: 300px;
+    height: 464px;
     margin: 20%;
-    position: relative;
-    top: 400px;
+    /* float: right; */
+    text-align: right;
+    /* position: relative; */
+    /* top: 400px; */
 }
 
 .profile_contact {
-    float: none;
-    height: 100%;
-    margin: 20%;
-    position: relative;
+    /* float: none; */
+    /* height: 100%; */
+    margin: 12%;
+    /* margin-bottom: 25px; */
+    /* position: relative; */
     text-align: center;
     top: 403px;
-
 }
 
 section {
@@ -249,4 +187,45 @@ section {
 
 .profile_about h2 {
     margin: 1em 31%;
+}
+
+
+
+.social-git, .social-linkedin {
+    /* padding: 0; */
+    /* margin: 0; */
+    /* width: 122px; */
+    display: inline;
+}
+
+
+.portfolio-links {
+    display: inline-block;
+    width: 140%;
+    margin: 1em;
+    margin-left: -11em;
+}
+
+.form-details label {
+    border: none;
+}
+
+.profile_contact {
+    border: 1px solid black;
+}
+
+textarea {
+    width: 468px;
+    margin-bottom: 10px;
+    height: 100px;
+}
+
+input[type="submit"] {
+    margin: 5px;
+}
+
+.portfolio-links a {
+    width: 90%;
+    margin: 0;
+    padding: 0;
 }
