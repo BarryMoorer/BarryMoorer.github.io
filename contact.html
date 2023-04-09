@@ -18,35 +18,44 @@
 <body>
     <div class="container">
         <nav class="navBar">
+            <div class="logo">
+                <h3>Barry Moorer</h3>
+            <img src="images/profile.png">
+            </div>
             <div class="menu-bar">
                 <ul>
                     <li><a href="index.html">Home</a></li>
                     <li><a href="aboutme.html">About</a></li>
                     <li><a href="projects.html">Projects</a></li>
                     <li><a href="#">Contact</a></li>
+                    <div class="resume">
+                    <li><a href="2023.docx" download>Resume</a></li>
+                    </div>
                 </ul>
             </div>
         </nav>
      
-                <form>
+        <form action="https://formsubmit.co/moorerbarry2@email.com" method="POST">
                     <div class="form-details">
                         <div class="contact_name">
                             <h2>Contact Me</h2>
                     <label>First Name:</label>
-                    <input type="text" required>
+                    <input type="text" name="First Name" required>
                     <label>Last Name:</label>
-                    <input type="text" required></div><br>
+                    <input type="text" name="Last Name" required></div><br>
                     <div class="contact_info">
                     <label>Phone Number:</label>
-                    <input type="number" required>
+                    <input type="number" name="Phone Number" required>
                     <label>Email:</label>
-                    <input type="email" required></div><br>
+                    <input type="email" name="email" required></div><br>
+                    <div class="commentsDIV">
                     <label>Comments:</label>
-                    <textarea></textarea>
-                    </div>
+                    <textarea name="Comments"></textarea> </div>
+                    
+                    <input type="hidden" name="_next" value="https://barrymoorer.github.io/thankyou.html">
                     <input type="submit" value="submit">
-
-                </form>   
+                    </div>
+                </form> <br />  
     </div>
 
     
