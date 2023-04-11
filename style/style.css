@@ -112,11 +112,7 @@ body {
     transition: 1s;
 }
 
-
-
-
 /* Profile */
-
 
 .profile_description {
     width: 383px;
@@ -130,7 +126,6 @@ p {
 }
 
 /*Icons*/
-
 
 .social-icons {
     background: gray;
