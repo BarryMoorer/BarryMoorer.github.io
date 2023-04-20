@@ -152,12 +152,14 @@ body {
     font-size: 125%;
 }
 
-.featured-button button {
+.featured-button {
     border: none;
+    text-decoration:none; 
     background: grey;
     cursor: pointer;
     border-radius: 12px;
     padding: 9px 20px;
+    color:black;
     text-transform: uppercase;
 }
 
