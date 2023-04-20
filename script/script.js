@@ -1,7 +1,7 @@
 "use strict";
 //$(document).ready(function() {
  const menuButton = document.getElementsByClassName("mobile-menu")[0]
-const menuList = document.getElementsByClassName('menu-bar')[0]
+const menuList = document.getElementsByClassName('navBar')[0]
 
 menuButton.addEventListener('click', () => {
     menuList.classList.toggle('active')

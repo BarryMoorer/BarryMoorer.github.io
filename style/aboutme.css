@@ -1,0 +1,566 @@
+@media(min-width:970px) {
+    .container2 {
+        background: #293042;
+        margin: auto;
+        height: 1431px;
+    }
+    
+    .tech-stack {
+        display: inline-flex;
+        position: absolute;
+        /* bottom: 198px; */
+        color: #cccdd3;
+        /* height: 44px; */
+        /* width: 100%; */
+        left: 36px;
+        top: 750px;
+    }
+    
+    .tech-stack svg {
+        position: relative;
+        bottom: -27px;
+        margin: 0px 13px;
+        /* padding: 0; */
+        height: 46px;
+        width: 60%;
+    }
+    
+    label {
+        text-transform: uppercase;
+        font-size: 141%;
+        border-right: solid #cccdd3 3px;
+        height: 106px;
+        padding: 35px 23px;
+    }
+    
+    section {
+        margin: 0;
+        padding: 0;
+    }
+    
+    .profile_about {
+        text-align: left;
+        width: 53%;
+    }
+    
+    .profile-background svg {
+        scale: 6.1;
+    }
+    
+    .profile_portfolio {
+        height: 464px;
+        margin: 20%;
+        /* float: right; */
+        text-align: right;
+        /* position: relative; */
+        /* top: 400px; */
+    }
+    
+    .profile_contact {
+        /* float: none; */
+        /* height: 100%; */
+        margin: 12%;
+        /* margin-bottom: 25px; */
+        /* position: relative; */
+        text-align: center;
+        top: 403px;
+    }
+    
+    section {
+        margin: 0;
+        padding: 0;
+    }
+    
+    .profile_about p {
+        display: flex;
+    }
+    
+    .profile_about h2 {
+        margin: 1em 31%;
+    }
+    
+    
+    
+    .social-git,
+    .social-linkedin {
+        /* padding: 0; */
+        /* margin: 0; */
+        /* width: 122px; */
+        display: inline;
+    }
+    
+    
+    .portfolio-links {
+        display: flex;
+        width: 140%;
+        margin: 1em;
+        margin-left: -11em;
+    }
+    
+    .form-details label {
+        border: none;
+    }
+    
+    .profile_contact {
+        border: 1px solid black;
+    }
+    
+    textarea {
+        width: 468px;
+        margin-bottom: 10px;
+        height: 100px;
+    }
+    
+    input[type="submit"] {
+        margin: 5px;
+    }
+    
+    .portfolio-links a {
+        width: 90%;
+        margin: 0;
+        padding: 0;
+    }
+    
+    /* About Me Page */
+    .about_desc {
+        width: 56%;
+        top: 320px;
+        left: 485px;
+        position: absolute;
+    }
+    
+    #about_profile {
+        /* position: relative; */
+        top: 16px;
+        font-size: 130%;
+        color: #cccdd3;
+    }
+    
+    #about_profile img {
+        position: absolute;
+        bottom: -199px;
+        left: -187px;
+    }
+    
+    #about_profile h3 {
+        position: absolute;
+        bottom: 414px;
+        left: 725px;
+    }
+    
+    #about_profile h2 {
+        text-align: center;
+    }
+    
+    .profile-background {
+        /* background: #ffffffc2; */
+        margin: auto 112px;
+        /* width: 65px; */
+        position: absolute;
+        border-radius: 50%;
+        left: 185px;
+        top: 428px;
+    }
+    
+    .about_social-icons {
+        background: gray;
+        cursor: pointer;
+        position: absolute;
+        width: 61px;
+        border-radius: 45px;
+        margin: 9px;
+        top: 335px;
+    }
+    
+    .about_social-icons svg {
+        width: 76%;
+        margin: 12px 7px;
+    }
+    
+    .portfolio-links2 {
+        display: flex;
+        /* width: 66%; */
+        /* margin: 0; */
+        margin-left: -11em;
+    }
+    
+}
+@media(max-width:968px) {
+    .container2 {
+        background: #293042;
+        margin: auto;
+        height: 1677px;
+    }
+    
+    .tech-stack {
+        display: inline-flex;
+        position: absolute;
+        /* bottom: 198px; */
+        color: #cccdd3;
+        /* height: 44px; */
+        width: 100%;
+        left: 51px;
+        top: 1325px;
+    }
+    
+    .tech-stack svg {
+        position: relative;
+        bottom: -27px;
+        margin: 0px 13px;
+        /* padding: 0; */
+        height: 46px;
+        width: 60%;
+    }
+    
+    label {
+        text-transform: uppercase;
+        font-size: 141%;
+        border-right: solid #cccdd3 3px;
+        height: 106px;
+        padding: 35px 23px;
+    }
+    
+    section {
+        margin: 0;
+        padding: 0;
+    }
+    
+    .profile_about {
+        text-align: left;
+        width: 53%;
+    }
+    
+    .profile-background svg {
+        scale: 4.1;
+        /* width: 100%; */
+    }
+    
+    .profile_portfolio {
+        height: 464px;
+        margin: 20%;
+        /* float: right; */
+        text-align: right;
+        /* position: relative; */
+        /* top: 400px; */
+    }
+    
+    .profile_contact {
+        /* float: none; */
+        /* height: 100%; */
+        margin: 12%;
+        /* margin-bottom: 25px; */
+        /* position: relative; */
+        text-align: center;
+        top: 403px;
+    }
+    
+    section {
+        margin: 0;
+        padding: 0;
+    }
+    
+    .profile_about p {
+        display: flex;
+    }
+    
+    .profile_about h2 {
+        margin: 1em 31%;
+    }
+    
+    
+    
+    .social-git,
+    .social-linkedin {
+        /* padding: 0; */
+        /* margin: 0; */
+        /* width: 122px; */
+        display: inline;
+    }
+    
+    
+    .portfolio-links {
+        display: flex;
+        width: 140%;
+        margin: 1em;
+        margin-left: -11em;
+    }
+    
+    .form-details label {
+        border: none;
+    }
+    
+    .profile_contact {
+        border: 1px solid black;
+    }
+    
+    textarea {
+        width: 468px;
+        margin-bottom: 10px;
+        height: 100px;
+    }
+    
+    input[type="submit"] {
+        margin: 5px;
+    }
+    
+    .portfolio-links a {
+        width: 90%;
+        margin: 0;
+        padding: 0;
+    }
+    
+    /* About Me Page */
+    .about_desc {
+        width: 97%;
+        top: 584px;
+        left: -85px;
+        position: absolute;
+    }
+    
+    #about_profile {
+        /* position: relative; */
+        top: 16px;
+        font-size: 130%;
+        color: #cccdd3;
+    }
+    
+    #about_profile img {
+        position: absolute;
+        bottom: -111px;
+        left: -87px;
+        width: 274%;
+    }
+    
+    #about_profile h3 {
+        position: absolute;
+        bottom: 232px;
+        left: 478px;
+    }
+    
+    #about_profile h2 {
+        text-align: center;
+    }
+    
+    .profile-background {
+        /* background: #ffffffc2; */
+        margin: auto 112px;
+        /* width: 65px; */
+        position: absolute;
+        border-radius: 50%;
+        left: 122px;
+        top: 361px;
+    }
+    
+    .about_social-icons {
+        background: gray;
+        cursor: pointer;
+        position: absolute;
+        width: 61px;
+        border-radius: 45px;
+        margin: 9px;
+        top: 335px;
+    }
+    
+    .about_social-icons svg {
+        width: 76%;
+        margin: 12px 7px;
+    }
+    
+    .portfolio-links2 {
+        display: flex;
+        /* width: 66%; */
+        /* margin: 0; */
+        margin-left: -11em;
+    }
+    
+}
+
+@media(max-width:508px) {
+    .container2 {
+        background: #293042;
+        margin: auto;
+        height: 2800px;
+        width: 100dvw;
+    }
+    
+    .tech-stack {
+        display: inline-flex;
+        position: absolute;
+        /* bottom: 198px; */
+        color: #cccdd3;
+        /* height: 44px; */
+        width: 100%;
+        left: 2px;
+        top: 2600px;
+    }
+    
+    .tech-stack svg {
+        position: relative;
+        bottom: -27px;
+        margin: 0px 13px;
+        /* padding: 0; */
+        height: 46px;
+        width: 60%;
+    }
+    
+    label {
+        text-transform: uppercase;
+        font-size: 141%;
+        border-right: solid #cccdd3 3px;
+        height: 106px;
+        padding: 35px 23px;
+    }
+    
+    section {
+        margin: 0;
+        padding: 0;
+    }
+    
+    .profile_about {
+        text-align: left;
+        width: 53%;
+    }
+    
+    .profile-background svg {
+        scale: 4.1;
+        /* width: 100%; */
+    }
+    
+    .profile_portfolio {
+        height: 464px;
+        margin: 20%;
+        /* float: right; */
+        text-align: right;
+        /* position: relative; */
+        /* top: 400px; */
+    }
+    
+    .profile_contact {
+        /* float: none; */
+        /* height: 100%; */
+        margin: 12%;
+        /* margin-bottom: 25px; */
+        /* position: relative; */
+        text-align: center;
+        top: 403px;
+    }
+    
+    section {
+        margin: 0;
+        padding: 0;
+    }
+    
+    .profile_about p {
+        display: flex;
+    }
+    
+    .profile_about h2 {
+        margin: 1em 31%;
+    }
+    
+    
+    
+    .social-git,
+    .social-linkedin {
+        /* padding: 0; */
+        /* margin: 0; */
+        /* width: 122px; */
+        display: inline;
+    }
+    
+    
+    .portfolio-links {
+        display: grid;
+        width: 140%;
+        
+    }
+    
+    .form-details label {
+        border: none;
+    }
+    
+    .profile_contact {
+        border: 1px solid black;
+    }
+    
+    textarea {
+        width: 468px;
+        margin-bottom: 10px;
+        height: 100px;
+    }
+    
+    input[type="submit"] {
+        margin: 5px;
+    }
+    
+    .portfolio-links a {
+        width: 90%;
+        margin: 0;
+        padding: 0;
+    }
+    
+    /* About Me Page */
+    .about_desc {
+        width: 97%;
+        top: 621px;
+        left: -50px;
+        position: absolute;
+    }
+    
+    #about_profile {
+        /* position: relative; */
+        top: 16px;
+        font-size: 130%;
+        color: #cccdd3;
+    }
+    
+    #about_profile img {
+        position: absolute;
+        bottom: -111px;
+        left: -87px;
+        width: 274%;
+    }
+    
+    #about_profile h3 {
+        position: absolute;
+        bottom: 10px;
+        left: 60px;
+    }
+    
+    #about_profile h2 {
+        text-align: center;
+    }
+    
+    .profile-background {
+        /* background: #ffffffc2; */
+        margin: auto 23px;
+        /* width: 65px; */
+        position: absolute;
+        border-radius: 50%;
+        left: 122px;
+        top: 361px;
+    }
+    
+    .about_social-icons {
+        background: gray;
+        cursor: pointer;
+        position: absolute;
+        width: 61px;
+        border-radius: 45px;
+        margin: 9px;
+        top: 335px;
+    }
+    
+    .about_social-icons svg {
+        width: 76%;
+        margin: 12px 7px;
+    }
+    
+    .portfolio-links2 {
+        display: flex;
+        /* width: 66%; */
+        /* margin: 0; */
+        margin-left: -11em;
+    }
+    
+}

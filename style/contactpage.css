@@ -1,0 +1,30 @@
+/* Contact Page */
+
+.form-details {
+    background: #cccdd3;
+    margin: 100px;
+    width: 750px;
+    border: none;
+    border-radius: 12px;
+    position: relative;
+    left: 25%;
+}
+
+form {
+    text-align: center;
+}
+
+.commentsDIV label {
+    position: relative;
+    top: -52px;
+}
+
+.form-details h2 {
+    margin-top: 8px;
+}
+
+.form-details input[type="submit"] {
+    border: none;
+    border-radius: 12px;
+    margin-bottom: 15px;
+}

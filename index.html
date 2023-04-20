@@ -12,28 +12,37 @@
     <script src="script/script.js" defer></script>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, user-scalable=no" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Barry's Portfolio</title>
 </head>
 
 <body>
     <div class="container">
-        <nav class="navBar">
-            <div class="logo">
-                <h3>Barry Moorer</h3>
-            <img src="images/profile.png">
+        <div class="menu-holder">
+        <div class="logo">
+               <img src="images/profile.png"> <h3>Barry Moorer</h3>
             </div>
+            <nav class="navBar">
+            
             <div class="menu-bar">
                 <ul>
                     <li><a href="#">Home</a></li>
-                    <li><a href="aboutme.html">About</a></li>
-                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="pages/aboutme.html">About</a></li>
+                    <li><a href="pages/projects.html">Projects</a></li>
                     <div class="resume">
-                    <li><a href="2023.docx" download>Resume</a></li>
+                    <li><a href="2023.pdf" download>Resume</a></li>
                     </div>
                 </ul>
             </div>
+            
         </nav>
+        <div class="menu-icon">
+            <a class="mobile-menu">
+                <i class="fa-sharp fa-solid fa-bars"></i></a>
+        </div>
+    </div>
+        
         <div id="profile">
             <h1 class="profile_name">Hi, I'm Barry Moorer!</h1>
             <h2 class="profile_stack">Full-Stack Web Developer</h2>
@@ -91,7 +100,7 @@
                         <g>
                         </g>
                     </svg>
-                </a></div><br>
+                </a></div>
                 <div class="social-linkedin">
                 <a href="https://www.linkedin.com/in/-barrymoorer/"><svg version="1.1" id="Layer_1"
                         xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
